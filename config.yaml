@@ -1,0 +1,38 @@
+baseURL: https://example.com/
+languageCode: en-us
+title: Mediumish
+theme: mediumish-gohugo-theme
+summaryLength: 25
+copyright: John Doe - All rights reserved
+enableEmoji: yes
+publishDir: docs
+params:
+  author:
+    description: Creator of this blog.
+    name: John Doe
+    thumbnail: /images/author.png
+  description: the clean blog!
+  index:
+    alertbar: no
+    mdtext: "希望你们开开心心上学来！\\\r\n**高高兴兴回家去！\r\n"
+    picture: /images/kindgarden.png
+    subtitle: 欢迎每一位小朋友!
+    title: 开封市实验幼儿园养正园
+  logo: /images/logo.png
+  social:
+    email: 363449457@qq.com
+    wechat: 2354566
+menu:
+  main:
+    - identifier: blog
+      name: 校园简介
+      url: /static/introduc_to_kindgarden/
+      weight: 100
+    - identifier: about
+      name: 师资简介
+      url: /
+      weight: 200
+    - identifier: imprint
+      name: 联系我们
+      url: /static/imprint
+      weight: 200
